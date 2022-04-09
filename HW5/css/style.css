@@ -1,0 +1,112 @@
+.container{
+	background-color: seashell;
+}
+h1{
+	text-align: center;
+}
+.logo{
+	background-color: gray;
+}
+.navigation{
+	background-color: gray;
+}
+.header{
+	background-color: gray;
+}
+.box{
+	overflow: hidden;
+	border: solid seashell 2px;
+}
+.content1{
+	width: 49.5%;
+	height: auto;
+	background-color: gray;
+	float: left;
+}
+.content2{
+	width: 49.5%;
+	height: auto;
+	background-color: gray;
+	float: right;
+}
+.footer{
+	background-color: gray;
+}
+.navigationf{
+	float: left;
+	width: 50%;
+	background-color: gray;
+}
+.logof{
+	float: right;
+	width: 50%;
+	background-color: gray;
+}
+.column {
+  float: left;
+  width: 33%;
+  height: 100px;
+  background-color: gray;
+  border: solid seashell 2px;
+}
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.contentf{
+	width: 59%;
+	height: auto;
+	background-color: gray;
+	float: right;
+	clear: right;
+	border-style: solid;
+	border-width: 2px;
+	border-color: seashell;
+}
+.headerf{
+	width: 59%;
+	height: auto;
+	background-color: gray;
+	float: right;
+	clear: right;
+	border-style: solid;
+	border-width: 2px;
+	border-color: seashell;
+}
+.sidebar{
+	width: 40%;
+	height: 165px;
+	background-color: gray;
+	float: left;
+	clear: left;
+}
+.gridf{
+	font-size: 0px;
+	width: 24.73%;
+	height: 120px;
+	background-color: gray;
+	float: left;
+	text-align: center;
+	border: solid seashell 2px;
+}
+.body{
+	width: 100%;
+	height: 120px;
+	background-color: gray;
+	text-align: center;
+	border: solid seashell 2px;
+}
+.tablesdemo{
+	text-align: center;
+	width: 100%;
+	border: solid black 4px;
+}
+td{
+	border: solid black 1px;
+	padding: 30px 0px;
+}
+th{
+	border: solid black 1px;
+	padding: 30px 0px;
+}
